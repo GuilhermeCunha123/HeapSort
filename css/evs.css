@@ -1,0 +1,465 @@
+﻿/* navbar */
+.navbar-default {
+    background-color: #009ffb;
+    border-color: #009ffb;
+    border-radius: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    padding: 25px;
+
+}
+    /* Title */
+    .navbar-default .navbar-brand {
+        color: #f3fffd;
+    }
+
+        .navbar-default .navbar-brand:hover,
+        .navbar-default .navbar-brand:focus {
+            color: #384357;
+        }
+    /* Link */
+    .navbar-default .navbar-nav > li > a {
+        color: #f3fffd;
+        margin-top: 15px;
+        padding-bottom: 0;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover,
+        .navbar-default .navbar-nav > li > a:focus {
+            color: #384357;
+        }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #f3fffd;
+        background-color: #384357;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #f3fffd;
+        background-color: #384357;
+    }
+    /* Caret */
+    .navbar-default .navbar-nav > .dropdown > a .caret {
+        border-top-color: #009ffb;
+        border-bottom-color: #009ffb;
+    }
+
+    .navbar-default .navbar-nav > .dropdown > a:hover .caret,
+    .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+        border-top-color: #384357;
+        border-bottom-color: #384357;
+    }
+
+    .navbar-default .navbar-nav > .open > a .caret,
+    .navbar-default .navbar-nav > .open > a:hover .caret,
+    .navbar-default .navbar-nav > .open > a:focus .caret {
+        border-top-color: #384357;
+        border-bottom-color: #384357;
+    }
+    /* Mobile version */
+    .navbar-default .navbar-toggle {
+        border-color: #f3fffd;
+    }
+
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+            background-color: #384357;
+        }
+
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #f3fffd;
+        }
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #f3fffd;
+    }
+
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #384357;
+        }
+
+    .searchNav {
+        width: 100%;
+    }
+
+    .modal-content{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .innerFooterLeft {
+        text-align: center !important;
+        margin-right: 20px;
+    }
+
+    .innerFooterRight {
+        margin-top: 20px;
+        text-align: center !important;
+        margin-left: 20px;
+    }
+}
+
+
+p > a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+body {
+    margin-top: 100px;
+}
+
+.dblock {
+    display: block;
+    color: inherit !important;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.getDown{
+    margin-top: 100px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /********************************/
+    right: 0;
+    left: 0;
+    background: #384357;
+    color: #f3fffd;
+    padding: 1rem;
+    z-index: 0;
+    box-sizing: border-box;
+}
+
+.innerFooterLeft {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.innerFooterRight {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.backgroundC {
+    background: #384357;
+}
+
+.innerFooterLeft > p {
+    margin: 5px 0 0 5px;
+}
+
+.innerFooterRight > p {
+    margin: 5px 0 0 5px;
+}
+
+.glyphicon {
+    font-family: inherit;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.glyphicon:before {
+    font-family: 'Glyphicons Halflings';
+}
+
+.searchNav {
+    width: 500px;
+}
+
+.border {
+    border: 2px solid #384357;
+}
+
+.title {
+    width: 100%;
+    height: 40px;
+    background: #384357;
+    color: #f3fffd;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    padding: 10px;
+}
+
+.serviceBox {
+    width: 300px;
+    height: auto;
+    background: #dad2c3;
+    border: 0;
+    margin: 10px;
+    float: left;
+    color: #384357;
+}
+
+.galleryField {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.photoGallery {
+    border: 1px solid #009ffb;
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+
+.mainPhoto {
+    margin: 10px 0 0 10px;
+    width: 90%;
+    height: 200px;
+    float: left;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.requestBox {
+    width: 300px;
+}
+
+.userAvaliate {
+    width: 270px;
+    background: #f9b946;
+    margin-left: 0 !important;
+}
+
+.padding {
+    padding: 55px 30px 30px 30px;
+}
+
+.serviceBox > p {
+    margin: 0;
+    padding: 10px;
+    background: #384357;
+    color: #f3fffd;
+    text-align: center;
+}
+
+.title > b {
+    float: left;
+}
+
+.glyphiconBar {
+    margin-right: 40px !important;
+}
+
+.info {
+    background: #7af2ff;
+}
+
+.title > span {
+    float: right;
+    margin: 5px;
+    cursor: pointer;
+}
+
+    .title > span > a {
+        color: inherit !important;
+        text-decoration: none !important;
+    }
+
+.serviceBox > .padding > h2 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.newButton {
+    font-size: 64px;
+    background: #384357;
+    color: #f3fffd;
+}
+
+.windows {
+    background: black;
+    color: white;
+    height: auto;
+}
+
+.buttonShowAll {
+    float: right;
+    margin-top: 10px;
+    border-radius: 0;
+    box-shadow: 1px 1px 5px #000;
+    margin-right: 20px;
+}
+
+.modal-dialog {
+    position: relative;
+    width: 300px;
+    margin-top: 120px;
+    float: right;
+}
+
+.modal-a {
+    position: relative;
+    width: 600px;
+    margin: auto;
+    margin-top: 120px !important;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #f3fffd;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #384357;
+    color: #f3fffd;
+    border-radius: 5px 5px 0 0;
+}
+
+    .modal-header .close {
+        margin-top: -2px;
+        color: #fff;
+    }
+
+.fotoveiculo {
+    width: 140px;
+    height: 140px;
+    float: right;
+    background: #fff;
+    margin: 3px;
+}
+
+.margem {
+    margin-left: 20px;
+}
+
+.controle {
+    margin-left: 20px !important;
+}
+
+.qualquer {
+    float: right;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    float: right;
+    border: 1px solid #000;
+    margin: 15px;
+}
+
+.doc {
+    float: right;
+    margin-right: 15px;
+}
+
+.up {
+    float: left;
+    margin-left: 20px;
+}
+
+.rating {
+    float: right;
+    position: relative;
+    margin-right: 15px;
+}
+
+    .rating:not(:checked) > input {
+        position: absolute;
+        top: -9999px;
+        clip: rect(0,0,0,0);
+    }
+
+    .rating:not(:checked) > label {
+        float: right;
+        width: 1em;
+        padding: 0 .1em;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 200%;
+        line-height: 1.2;
+        color: #ddd;
+    }
+
+        .rating:not(:checked) > label:before {
+            content: '★ ';
+        }
+
+    .rating > input:checked ~ label {
+        color: #f70;
+    }
+
+    .rating:not(:checked) > label:hover,
+    .rating:not(:checked) > label:hover ~ label {
+        color: gold;
+    }
+
+    .rating > input:checked + label:hover,
+    .rating > input:checked + label:hover ~ label,
+    .rating > input:checked ~ label:hover,
+    .rating > input:checked ~ label:hover ~ label,
+    .rating > label:hover ~ input:checked ~ label {
+        color: #ea0;
+    }
+
+    .rating > label:active {
+        position: relative;
+        top: 2px;
+        left: 2px;
+    }
+
+
+
+
+
+.margemDentro > p {
+    
+    margin-top: 85px !important;
+}
+
+.photoDriver {
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.report {
+    background: #dad2c3;
+    color: #384357;
+    width: 200px;
+    height: auto;
+    border: 0;
+    margin: 10px 10px 10px 10px;
+    margin-left: 30px;
+    float: left;
+}
