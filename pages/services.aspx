@@ -4,7 +4,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="row">
-        <div class="title text-center">Serviços</div>
+        <div class="title text-center">
+            Serviços
+            <span class="glyphicon glyphiconBar glyphicon-th-list">&nbsp;Ordenar</span>
+        </div>
         <div class="col-lg-12">
 
             <!--<a href="serviceInfo.aspx" class="dblock">

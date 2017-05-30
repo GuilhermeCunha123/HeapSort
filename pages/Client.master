@@ -5,12 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>E-Van</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <link href="../css/evs.css" rel="stylesheet" />
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/jquery-1.12.0.min.js"></script>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
