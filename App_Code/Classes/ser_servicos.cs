@@ -9,22 +9,12 @@ using System.Web;
 public class ser_servicos
 {
 	private int ser_id;
-    private string ser_datacadastro;
-    private string ser_nome;
     private string ser_datafim;
     private string ser_origem;
     private string ser_datainicio;
     private string ser_destino;
-    private string ser_descricao;
     private int ser_lugares;
     private mot_motorista mot_id;
-
-    public string Ser_descricao
-    {
-        get { return ser_descricao; }
-        set { ser_descricao = value; }
-    }
-   
 
     public int Ser_lugares
     {
@@ -44,20 +34,6 @@ public class ser_servicos
         get { return ser_destino; }
         set { ser_destino = value; }
     }
-
-    public string Ser_datacadastro
-    {
-        get { return ser_datacadastro; }
-        set { ser_datacadastro = value; }
-    }
-    
-
-    public string Ser_nome
-    {
-        get { return ser_nome; }
-        set { ser_nome = value; }
-    }
-    
 
     public string Ser_datainicio
     {
