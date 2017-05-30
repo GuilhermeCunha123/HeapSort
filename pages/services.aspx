@@ -9,9 +9,7 @@
             <span class="glyphicon glyphiconBar glyphicon-th-list">&nbsp;Ordenar</span>
         </div>
         <div class="col-lg-12">
-
-            <!--<a href="serviceInfo.aspx" class="dblock">
-                <div class="serviceBox">
+            <!--<div class="serviceBox">
                     <div class="title">João</div>
                     <div class="padding">
                         <table border="0">
@@ -28,10 +26,8 @@
                         </table>
                     </div>
                     <p>9/5/2017</p>
-                </div>-->
+        </div>-->
         </div>
-    </div>
-    <br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><div class="getDown"></div><br />
+        </div>
 </asp:Content>
 
