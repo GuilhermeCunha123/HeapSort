@@ -9,8 +9,8 @@
     </asp:ContentPlaceHolder>
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <link href="../css/evs.css" rel="stylesheet" />
-    <script src="../js/jquery-3.1.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-1.12.0.min.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -23,7 +23,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand glyphicon glyphicon-road logo" href="home.aspx">&nbsp E-Van</a>
+                    <a class="navbar-brand glyphicon glyphicon-road logo" href="#">&nbsp E-Van</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
@@ -114,7 +114,7 @@
                             João Guilherme
                         </p>
                         <p>
-                            Laura Siqueira
+                            Laura Freitas
                         </p>
                         <p>Thiago Julien</p>
                     </div>
