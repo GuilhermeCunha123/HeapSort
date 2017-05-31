@@ -34,7 +34,7 @@ public class mot_motoristaDB
             objCommand.Parameters.Add(Mapped.Parameter("?mot_estado", mot.Mot_estado));
 
             // Chave estrangeira
-            objCommand.Parameters.Add(Mapped.Parameter("?usu_id", mot.Usu_id));
+            objCommand.Parameters.Add(Mapped.Parameter("?usu_id", mot.Usu_id.Usu_id));
 
             objCommand.ExecuteNonQuery();
             objConexao.Close();
@@ -89,6 +89,40 @@ public class mot_motoristaDB
 
 
             objCommand.Parameters.Add(Mapped.Parameter("?mot_id", id));
+
+            objCommand.ExecuteNonQuery();
+            objConexao.Close();
+            objConexao.Dispose();
+            objCommand.Dispose();
+        }
+        catch (Exception)
+        {
+            //erro
+            retorno = -2;
+        }
+        return retorno;
+    }
+    public static int Update(mot_motorista mot)
+    {
+        int retorno = 0;
+
+        try
+        {
+            //Correto
+            IDbConnection objConexao; //Abrir a conexão
+            IDbCommand objCommand; // Criar e executar os comandos
+            string sql = "update tip_tipoempresa set tip_descricao = ?tip_descricao where tip_id = ?tip_id";
+
+            objConexao = Mapped.Connection();
+            objCommand = Mapped.Command(sql, objConexao);
+
+            objCommand.Parameters.Add(Mapped.Parameter("?mot_nome", mot.Mot_nome));
+            objCommand.Parameters.Add(Mapped.Parameter("?mot_idade", mot.Mot_idade));
+            objCommand.Parameters.Add(Mapped.Parameter("?mot_sexo", mot.Mot_sexo));
+            objCommand.Parameters.Add(Mapped.Parameter("?mot_cidade", mot.Mot_cidade));
+            objCommand.Parameters.Add(Mapped.Parameter("?mot_estado", mot.Mot_estado));
+
+            objCommand.Parameters.Add(Mapped.Parameter("?usu_id", mot.Usu_id.Usu_id));
 
             objCommand.ExecuteNonQuery();
             objConexao.Close();

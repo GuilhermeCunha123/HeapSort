@@ -6,6 +6,8 @@ using System.Web;
 /// <summary>
 /// Summary description for mot_motorista
 /// </summary>
+using System.Data;
+
 public class mot_motorista
 {
     private int mot_id;
@@ -44,12 +46,6 @@ public class mot_motorista
     {
         get { return mot_idade; }
         set { mot_idade = value; }
-    }
-
-    public string Mot_cnpj
-    {
-        get { return mot_cnpj; }
-        set { mot_cnpj = value; }
     }
 
     public string Mot_nome
