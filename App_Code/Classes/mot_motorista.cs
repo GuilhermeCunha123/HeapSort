@@ -6,7 +6,7 @@ using System.Web;
 /// <summary>
 /// Summary description for mot_motorista
 /// </summary>
-using System.Data;
+
 
 public class mot_motorista
 {
