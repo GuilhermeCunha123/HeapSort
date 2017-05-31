@@ -10,7 +10,6 @@ public class mot_motorista
 {
     private int mot_id;
     private string mot_nome;
-    private string mot_cnpj;
     private int mot_idade;
     private string mot_sexo;
     private string mot_cidade;
